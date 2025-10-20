@@ -1,0 +1,17 @@
+[package]
+name = "queue"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+crossbeam = "0.8.4"
+
+[dev-dependencies]
+criterion = "0.7.0"
+crossbeam = "0.8.4"
+queue = { path = "." }
+
+
+[[bench]]
+name = "queuebench"
+harness = false

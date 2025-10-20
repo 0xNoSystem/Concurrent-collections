@@ -1,0 +1,2 @@
+[workspace]
+members = ["hmap", "queue", "spinlock"]
